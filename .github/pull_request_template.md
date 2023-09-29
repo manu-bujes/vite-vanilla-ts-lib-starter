@@ -6,7 +6,7 @@
 
 ## Visuals
 
-<!-- Include images or video of the changes if needed (could be previous and current this PR) 
+<!-- Include images or video of the changes if needed (could be previous and current this PR)
 
 | Previous | Current |
 | --- | --- |
@@ -23,7 +23,7 @@ These are the required steps to create a successful pull request.
 - [ ] **Description**: Do not leave empty; describe the changes made in this PR.
 - [ ] **Visuals**: Visual evidences of this PR changes.
 - [ ] **Assignees**: The reference team member/s for answering questions about the PR and the responsible for the final merge.
-- [ ] **Reviewers**: Teammates who will be able to bring valuable feedback about the changes. You should also add your POD github team. Only one approval will be required for merge. 
+- [ ] **Reviewers**: Teammates who will be able to bring valuable feedback about the changes. You should also add your POD github team. Only one approval will be required for merge.
 - [ ] **Labels**: Select the keywords that best fit your changes.
 - [ ] **Tests**: The required tests to test the expected behavior of the issue or functionality.
 
@@ -34,5 +34,5 @@ These are the required steps to create a successful pull request.
   For Jira tasks
 
   [BM-123](https://inari-enso.atlassian.net/browse/BM-123)
-  
+
 -->
