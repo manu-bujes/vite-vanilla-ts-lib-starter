@@ -1,5 +1,5 @@
 # Name of workflow to be displyed on Github Console
-name: Lint & Tests
+name: Lint & tests
 
 # Triggers the workflow on separate events
 on:
@@ -10,16 +10,14 @@ on:
   pull_request:
     # Trigger the worflow on pull request event for main branch
     branches:
-      - main
       - develop
-      - ci-test
 
 permissions:
   contents: read # for checkout
 
 jobs:
   build:
-    name: Run Lint & Tests
+    name: Run lint & tests
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
