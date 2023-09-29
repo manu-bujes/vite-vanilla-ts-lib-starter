@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - ci-test
 
 permissions:
   contents: read # for checkout
