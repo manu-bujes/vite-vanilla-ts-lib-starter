@@ -1,0 +1,52 @@
+# Name of workflow to be displyed on Github Console
+name: Build
+
+# Triggers the workflow on separate events
+on:
+  push:
+    # Trigger the worflow on push event for all branches
+    branches:
+      - "**"
+  pull_request:
+    # Trigger the worflow on pull request event for main branch
+    branches:
+      - main
+      - develop
+      - ci-test
+
+permissions:
+  contents: read # for checkout
+
+jobs:
+  build:
+    name: Setup
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cache node modules
+        id: cache-npm
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ./node_modules
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "lts/*"
+          cache: npm
+      - name: Install dependencies
+        run: npm install --force
+      # - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
+      #   run: npm audit signatures
+      - name: Lint scripts
+        run: npm run lint:scripts
+      - name: Lint styles
+        run: npm run lint:styles
+      - name: Run unit tests
+        run: npm run test
+      - name: Run unit tests coverage
+        run: npm run test:coverage
+      - name: Run build
+        run: npm run build

@@ -1,15 +1,33 @@
-# Change Log
+## [1.4.1](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.4.0...v1.4.1) (2023-09-29)
 
-All notable changes to the "vite-vanilla-ts-lib-starter" project will be documented in this file.
 
-## [0.0.1] - 2023-01-18
+### Bug Fixes
 
-- Update all packages to the latest versions (update to vite 4.x)
+* test fix ([c693111](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/c693111f64d0408f45737c2caa8b53cf460aec89))
 
-## [0.0.1] - 2022-09-08
+# [1.4.0](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.3.3...v1.4.0) (2023-09-29)
 
-- Update all packages to the latest versions (update to vite 3.x)
 
-## [0.0.0] - 2022-03-28
+### Features
 
-- Initial release
+* new test feature added ([b8241e0](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/b8241e08635f7cef8bfa90cbee761a03b39f5f1d))
+
+## [1.3.3](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.3.2...v1.3.3) (2023-09-29)
+
+
+### Bug Fixes
+
+* no scoped package ([554d934](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/554d934609e549e81905f3cd7a2a4dc5cdc41e0b))
+
+## [1.3.2](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.3.1...v1.3.2) (2023-09-29)
+
+### Bug Fixes
+
+- add changelog ([62bca8e](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/62bca8e2919d3ebf71ac83162adc13c07af728ea))
+- fix package name ([d8b4c59](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/d8b4c59e6022da18d9006aeec48f9f73508bf772))
+
+## [1.3.1](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.3.0...v1.3.1) (2023-09-29)
+
+### Bug Fixes
+
+- changelog path ([3b1d6e3](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/3b1d6e3e28b36087acd7e84e03485675e1e2a85b))

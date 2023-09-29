@@ -1,0 +1,54 @@
+name: Release
+on:
+  push:
+    branches:
+      - master
+      - ci-test
+
+permissions:
+  contents: read # for checkout
+
+jobs:
+  build:
+    name: Release
+    runs-on: ubuntu-latest
+    # TODO: Permissions only necessary with semantic-release
+    permissions:
+      contents: write # to be able to publish a GitHub release
+      issues: write # to be able to comment on released issues
+      pull-requests: write # to be able to comment on released pull requests
+      id-token: write # to enable use of OIDC for npm provenance
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Cache node modules
+        id: cache-npm
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ./node_modules
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "lts/*"
+          cache: npm
+      - name: Install dependencies
+        run: npm install --force
+      # - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
+      #   run: npm audit signatures
+      - name: Lint scripts
+        run: npm run lint:scripts
+      - name: Run unit tests
+        run: npm run test
+      - name: Run unit tests coverage
+        run: npm run test:coverage
+      - name: Run build
+        run: npm run build
+      - name: Semantic release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npx semantic-release
