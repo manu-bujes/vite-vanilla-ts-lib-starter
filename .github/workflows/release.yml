@@ -29,10 +29,6 @@ jobs:
           # npm cache files are stored in `~/.npm` on Linux/macOS
           path: ./node_modules
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
