@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.5.0...v1.5.1) (2023-09-29)
+
+
+### Bug Fixes
+
+* ci try 1.5.1 ([bd98086](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/bd98086b359b5e17df1fb6b14e9e0504a1865dc7))
+
 # [1.5.0](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.4.0...v1.5.0) (2023-09-29)
 
 
