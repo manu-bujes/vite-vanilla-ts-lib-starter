@@ -1,3 +1,15 @@
+# [1.5.0](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.4.0...v1.5.0) (2023-09-29)
+
+
+### Bug Fixes
+
+* test fix ([c693111](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/c693111f64d0408f45737c2caa8b53cf460aec89))
+
+
+### Features
+
+* remove permissions in build ([edcf5e0](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/edcf5e02bce6ee9f980513e90d2c5590c4cd403f))
+
 ## [1.4.1](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.4.0...v1.4.1) (2023-09-29)
 
 
