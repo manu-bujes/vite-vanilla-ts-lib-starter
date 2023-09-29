@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.3.2...v1.3.3) (2023-09-29)
+
+
+### Bug Fixes
+
+* no scoped package ([554d934](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/554d934609e549e81905f3cd7a2a4dc5cdc41e0b))
+
 ## [1.3.2](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.3.1...v1.3.2) (2023-09-29)
 
 ### Bug Fixes
