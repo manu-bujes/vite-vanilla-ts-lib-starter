@@ -46,9 +46,9 @@ jobs:
         run: npm audit signatures
       - name: Lint scripts
         run: npm run lint:scripts
-      # - name: Lint styles
-      #   run: npm run lint:styles
       - name: Run tests
         run: npm run test
       - name: Run tests coverage
         run: npm run test:coverage
+      - name: Semantic release
+        run: npx semantic-release --dry-run
