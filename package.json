@@ -1,16 +1,16 @@
 {
-  "name": "@manu-bujes/vite-vanilla-ts-lib-starter",
+  "name": "manu-bujes-vite-vanilla-ts-lib-starter",
   "private": true,
   "version": "1.1.0",
-  "main": "./dist/vite-vanilla-ts-lib-starter.cjs",
-  "module": "./dist/vite-vanilla-ts-lib-starter.mjs",
+  "main": "./dist/manu-bujes-vite-vanilla-ts-lib-starter.cjs",
+  "module": "./dist/manu-bujes-vite-vanilla-ts-lib-starter.mjs",
   "exports": {
     ".": {
-      "require": "./dist/vite-vanilla-ts-lib-starter.cjs",
-      "import": "./dist/vite-vanilla-ts-lib-starter.mjs"
+      "require": "./dist/manu-bujes-vite-vanilla-ts-lib-starter.cjs",
+      "import": "./dist/manu-bujes-vite-vanilla-ts-lib-starter.mjs"
     }
   },
-  "types": "./dist/vite-vanilla-ts-lib-starter.d.ts",
+  "types": "./dist/manu-bujes-vite-vanilla-ts-lib-starter.d.ts",
   "files": [
     "dist"
   ],
