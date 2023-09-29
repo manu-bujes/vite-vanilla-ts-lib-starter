@@ -20,6 +20,8 @@ jobs:
       id-token: write # to enable use of OIDC for npm provenance
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Cache node modules
         id: cache-npm
         uses: actions/cache@v3
@@ -28,7 +30,6 @@ jobs:
         with:
           path: ./node_modules
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-          fetch-depth: 0
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
