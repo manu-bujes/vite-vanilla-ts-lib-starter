@@ -48,11 +48,13 @@ jobs:
           node-version: "lts/*"
           cache: npm
       - name: Install dependencies
-        run: npm clean-install
+        run: npm install
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
         run: npm audit signatures
       - name: Lint scripts
         run: npm run lint:scripts
+      - name: Lint styles
+        run: npm run lint:styles
       - name: Run unit tests
         run: npm run test
       - name: Run unit tests coverage
