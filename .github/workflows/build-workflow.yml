@@ -1,5 +1,5 @@
 # Name of workflow to be displyed on Github Console
-name: Tests
+name: Build
 
 # Triggers the workflow on separate events
 on:
@@ -32,27 +32,25 @@ jobs:
 
   dependencies: 
     name: Install dependencies
-      runs-on: ubuntu-latest
-      needs:
-        - setupci
-      steps:
-        - name: Install dependencies
-          run: npm clean-install
-        - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
+    runs-on: ubuntu-latest
+    needs:
+      - setupci
+    steps:
+      - name: Install dependencies
+        run: npm clean-install
+      - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
         run: npm audit signatures
+  
   code-checks: 
     name: Code checks
-      runs-on: ubuntu-latest
-      needs:
-        - setupci
-        - dependencies
-      steps:
-        - name: Lint
-          uses: actions/checkout@v3
-          run: npm lint
-        - name: Run tests
-          env:
-          run: npm test
-        - name: Run tests coverage
-          env:
-          run: npm run test:coverage
+    runs-on: ubuntu-latest
+    needs:
+      - setupci
+      - dependencies
+    steps:
+      - name: Lint
+        run: npm lint
+      - name: Run tests
+        run: npm test
+      - name: Run tests coverage
+        run: npm run test:coverage
