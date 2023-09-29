@@ -52,9 +52,12 @@ jobs:
         run: npm audit signatures
       - name: Lint scripts
         run: npm run lint:scripts
-      - name: Run tests
+      - name: Run unit tests
         run: npm run test
-      - name: Run tests coverage
+      - name: Run unit tests coverage
         run: npm run test:coverage
       - name: Semantic release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release --dry-run
