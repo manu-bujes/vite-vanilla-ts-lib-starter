@@ -1,5 +1,5 @@
 # Name of workflow to be displyed on Github Console
-name: Build
+name: Tests
 
 # Triggers the workflow on separate events
 on:
@@ -11,19 +11,15 @@ on:
     # Trigger the worflow on pull request event for main branch
     branches:
       - main
+      - 'develop*'
 
 permissions:
   contents: read # for checkout
 
 jobs:
-  build:
-    name: Build
+  setupci:
+    name: Setup
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # to be able to publish a GitHub release
-      issues: write # to be able to comment on released issues
-      pull-requests: write # to be able to comment on released pull requests
-      id-token: write # to enable use of OIDC for npm provenance
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -33,17 +29,30 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "lts/*"
-      - name: Install dependencies
-        run: npm clean-install
-      - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
+
+  dependencies: 
+    name: Install dependencies
+      runs-on: ubuntu-latest
+      needs:
+        - setupci
+      steps:
+        - name: Install dependencies
+          run: npm clean-install
+        - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
         run: npm audit signatures
-      - name: Test
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npm test
-      - name: Test coverage
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npm run test:coverage
+  code-checks: 
+    name: Code checks
+      runs-on: ubuntu-latest
+      needs:
+        - setupci
+        - dependencies
+      steps:
+        - name: Lint
+          uses: actions/checkout@v3
+          run: npm lint
+        - name: Run tests
+          env:
+          run: npm test
+        - name: Run tests coverage
+          env:
+          run: npm run test:coverage
