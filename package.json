@@ -1,6 +1,5 @@
 {
   "name": "manu-bujes-vite-vanilla-ts-lib-starter",
-  "private": true,
   "version": "1.2.0",
   "main": "./dist/manu-bujes-vite-vanilla-ts-lib-starter.cjs",
   "module": "./dist/manu-bujes-vite-vanilla-ts-lib-starter.mjs",
