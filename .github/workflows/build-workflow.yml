@@ -1,5 +1,5 @@
 # Name of workflow to be displyed on Github Console
-name: Build
+name: Lint & Tests
 
 # Triggers the workflow on separate events
 on:
@@ -19,7 +19,7 @@ permissions:
 
 jobs:
   build:
-    name: Setup
+    name: Run Lint & Tests
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
