@@ -1,6 +1,6 @@
 {
   "name": "manu-bujes-vite-vanilla-ts-ci-cd-lib-starter",
-  "version": "1.3.3",
+  "version": "1.4.0",
   "main": "./dist/manu-bujes-vite-vanilla-ts-ci-cd-lib-starter.cjs",
   "module": "./dist/manu-bujes-vite-vanilla-ts-ci-cd-lib-starter.mjs",
   "exports": {
