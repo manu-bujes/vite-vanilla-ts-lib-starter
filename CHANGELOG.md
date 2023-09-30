@@ -1,3 +1,10 @@
+## [1.6.2](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.6.1...v1.6.2) (2023-09-30)
+
+
+### Bug Fixes
+
+* dist git files ignored ([a4080ed](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/a4080edd07399c19384e2df93c22834a6073802f))
+
 ## [1.6.1](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.6.0...v1.6.1) (2023-09-30)
 
 
