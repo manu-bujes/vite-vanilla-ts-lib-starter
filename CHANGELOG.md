@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.5.1...v1.6.0) (2023-09-30)
+
+
+### Features
+
+* add multiply ([9795a7f](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/9795a7f661be23a7ecf4bbad005e353d7aca5b50))
+
 ## [1.5.1](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.5.0...v1.5.1) (2023-09-29)
 
 ### Bug Fixes
