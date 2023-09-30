@@ -1,6 +1,6 @@
 {
   "name": "manu-bujes-vite-vanilla-ts-ci-cd-lib-starter",
-  "version": "1.5.1",
+  "version": "1.6.1",
   "main": "./dist/manu-bujes-vite-vanilla-ts-ci-cd-lib-starter.cjs",
   "module": "./dist/manu-bujes-vite-vanilla-ts-ci-cd-lib-starter.mjs",
   "exports": {
@@ -14,8 +14,7 @@
     "dist"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "tag": "latest"
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "dev": "vite --host",
@@ -43,16 +42,15 @@
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.3",
+    "lint-staged": "^14.0.1",
     "postcss": "^8.4.27",
     "postcss-scss": "^4.0.6",
     "prettier": "^3.0.3",
     "rimraf": "^5.0.1",
     "semantic-release": "^22.0.5",
     "stylelint": "^15.10.3",
-    "stylelint-config-prettier": "^9.0.5",
-    "stylelint-config-recommended": "^9.0.0",
-    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-config-sass-guidelines": "^10.0.0",
     "stylelint-prettier": "^4.0.2",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6",

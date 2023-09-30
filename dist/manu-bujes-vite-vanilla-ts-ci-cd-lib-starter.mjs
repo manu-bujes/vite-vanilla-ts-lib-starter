@@ -1,4 +1,5 @@
-const o = (s, t) => s + t;
+const o = (t, s) => t * s, c = (t, s) => t + s;
 export {
-  o as sum
+  o as multiply,
+  c as sum
 };
