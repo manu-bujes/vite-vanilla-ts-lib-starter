@@ -28,7 +28,7 @@ module.exports = {
       {
         "assets": ['dist']
       }
-    ]
+    ],
     [
       "@semantic-release/git",
       {
