@@ -1,3 +1,15 @@
+# [1.7.0](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.6.2...v1.7.0) (2023-09-30)
+
+
+### Bug Fixes
+
+* **releaserc:** fix lint ([3fdfac2](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/3fdfac2ead249c4b46a0366ea3a730688546d62c))
+
+
+### Features
+
+* add assets in github release ([491f1bf](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/491f1bf9b52239b7336c450f489f625e6ff78306))
+
 ## [1.6.2](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.6.1...v1.6.2) (2023-09-30)
 
 ### Bug Fixes
