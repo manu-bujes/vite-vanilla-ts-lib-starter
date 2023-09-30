@@ -12,6 +12,7 @@ on:
     branches:
       - develop
       - master
+      - next
 
 permissions:
   contents: read # for checkout
