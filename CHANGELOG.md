@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.6.0...v1.6.1) (2023-09-30)
+
+
+### Bug Fixes
+
+* remove tag in publish config ([5a17220](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/5a172204c15491aa7dcc4d892e13969e06d1213e))
+
 # [1.6.0](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.5.1...v1.6.0) (2023-09-30)
 
 ### Features
