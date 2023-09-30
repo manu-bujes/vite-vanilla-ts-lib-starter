@@ -1,22 +1,19 @@
 ## [1.5.1](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.5.0...v1.5.1) (2023-09-29)
 
-
 ### Bug Fixes
 
-* ci try 1.5.1 ([bd98086](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/bd98086b359b5e17df1fb6b14e9e0504a1865dc7))
+- ci try 1.5.1 ([bd98086](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/bd98086b359b5e17df1fb6b14e9e0504a1865dc7))
 
 # [1.5.0](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.4.0...v1.5.0) (2023-09-29)
 
-
 ### Bug Fixes
 
-* test fix ([c693111](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/c693111f64d0408f45737c2caa8b53cf460aec89))
-
+- test fix ([c693111](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/c693111f64d0408f45737c2caa8b53cf460aec89))
 
 ### Features
 
-* remove permissions in build ([edcf5e0](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/edcf5e02bce6ee9f980513e90d2c5590c4cd403f))
-* try new version ([972386d](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/972386d8469601fb6b71c4c793257cb74c6b3486))
+- remove permissions in build ([edcf5e0](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/edcf5e02bce6ee9f980513e90d2c5590c4cd403f))
+- try new version ([972386d](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/972386d8469601fb6b71c4c793257cb74c6b3486))
 
 # [1.5.0](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.4.0...v1.5.0) (2023-09-29)
 
