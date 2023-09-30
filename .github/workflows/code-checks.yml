@@ -11,6 +11,7 @@ on:
     # Trigger the worflow on pull request event for main branch
     branches:
       - develop
+      - master
 
 permissions:
   contents: read # for checkout
@@ -35,7 +36,7 @@ jobs:
           node-version: "lts/*"
           cache: npm
       - name: Install dependencies
-        run: npm install --force
+        run: npm clean-install
       # - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
       #   run: npm audit signatures
       - name: Lint scripts
@@ -46,5 +47,3 @@ jobs:
         run: npm run test
       - name: Run unit tests coverage
         run: npm run test:coverage
-      - name: Run build
-        run: npm run build
