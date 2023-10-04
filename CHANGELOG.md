@@ -1,9 +1,14 @@
-## [1.6.1](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.6.0...v1.6.1) (2023-09-30)
-
+## [1.6.2](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.6.1...v1.6.2) (2023-09-30)
 
 ### Bug Fixes
 
-* remove tag in publish config ([5a17220](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/5a172204c15491aa7dcc4d892e13969e06d1213e))
+- dist git files ignored ([a4080ed](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/a4080edd07399c19384e2df93c22834a6073802f))
+
+## [1.6.1](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.6.0...v1.6.1) (2023-09-30)
+
+### Bug Fixes
+
+- remove tag in publish config ([5a17220](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/5a172204c15491aa7dcc4d892e13969e06d1213e))
 
 # [1.6.0](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.5.1...v1.6.0) (2023-09-30)
 
