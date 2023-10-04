@@ -1,3 +1,29 @@
+# [1.8.0](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.7.1...v1.8.0) (2023-10-04)
+
+
+### Features
+
+* add division ([b91eaec](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/b91eaeccba944eca27c725077770881d2cd53696))
+
+## [1.7.1](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.7.0...v1.7.1) (2023-10-04)
+
+
+### Bug Fixes
+
+* test fix releasing ([a1ebe96](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/a1ebe96708e868986107b5ea0ce800005bf2d98c))
+
+# [1.7.0](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.6.2...v1.7.0) (2023-09-30)
+
+
+### Bug Fixes
+
+* **releaserc:** fix lint ([3fdfac2](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/3fdfac2ead249c4b46a0366ea3a730688546d62c))
+
+
+### Features
+
+* add assets in github release ([491f1bf](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/491f1bf9b52239b7336c450f489f625e6ff78306))
+
 ## [1.6.2](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.6.1...v1.6.2) (2023-09-30)
 
 ### Bug Fixes

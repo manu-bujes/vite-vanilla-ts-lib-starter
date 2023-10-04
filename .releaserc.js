@@ -23,7 +23,12 @@ module.exports = {
       },
     ],
     "@semantic-release/npm",
-    "@semantic-release/github",
+    [
+      "@semantic-release/github",
+      {
+        "assets": ['dist']
+      }
+    ],
     [
       "@semantic-release/git",
       {
