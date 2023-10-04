@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.7.0...v1.7.1) (2023-10-04)
+
+
+### Bug Fixes
+
+* test fix releasing ([a1ebe96](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/a1ebe96708e868986107b5ea0ce800005bf2d98c))
+
 # [1.7.0](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.6.2...v1.7.0) (2023-09-30)
 
 
