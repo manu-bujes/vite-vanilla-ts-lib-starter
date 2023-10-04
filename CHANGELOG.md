@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.7.1...v1.8.0) (2023-10-04)
+
+
+### Features
+
+* add division ([b91eaec](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/commit/b91eaeccba944eca27c725077770881d2cd53696))
+
 ## [1.7.1](https://github.com/manu-bujes/vite-vanilla-ts-lib-starter/compare/v1.7.0...v1.7.1) (2023-10-04)
 
 
